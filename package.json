@@ -1,5 +1,5 @@
 {
-  "name": "likhde-ai-frontend",
+  "name": "likhde-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.0.0",
+    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8",
+    "autoprefixer": "^10"
   }
 }
