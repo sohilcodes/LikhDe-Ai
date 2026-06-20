@@ -41,6 +41,44 @@ export default function Home() {
           Free mein 5 content roz — no signup needed ✨
         </p>
       </section>
+     
+      {/* Pricing Banner */}
+<div
+  className="max-w-2xl mx-auto px-4 mb-4"
+>
+  <div
+    className="flex items-center justify-between px-4 py-3 rounded-2xl"
+    style={{ background: "#0D0D0D", border: "1px solid #FF6B00" }}
+  >
+    <div className="flex items-center gap-3">
+      <span style={{ fontSize: "20px" }}>⚡</span>
+      <div>
+        <p style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "13px", fontWeight: 600, color: "#fff", marginBottom: "1px" }}>
+          Unlimited content chahiye?
+        </p>
+        <p style={{ fontFamily: "'Inter', sans-serif", fontSize: "11px", color: "#888" }}>
+          Script, Hashtags + unlimited generate — sirf ₹99/month
+        </p>
+      </div>
+    </div>
+    <a
+      href="/pricing"
+      style={{
+        background: "#FF6B00",
+        color: "#fff",
+        fontFamily: "'Space Grotesk', sans-serif",
+        fontSize: "12px",
+        fontWeight: 600,
+        padding: "8px 14px",
+        borderRadius: "10px",
+        textDecoration: "none",
+        whiteSpace: "nowrap"
+      }}
+    >
+      Pro lo →
+    </a>
+  </div>
+</div>
 
       {/* Generator */}
       <Generator />
